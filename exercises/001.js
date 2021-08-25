@@ -1,7 +1,7 @@
 /*
-    Write a JavaScript program to display the current day and time in the following format.
-    Today is: Tuesday.
-    Current time is: 10:30:38 PM
+  Write a JavaScript program to display the current day and time in the following format.
+  Today is: Tuesday.
+  Current time is: 10:30:38 PM
 */
 
 const date = new Date();
