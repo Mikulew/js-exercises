@@ -37,10 +37,10 @@ console.log('changeFirstCharacterToLast:', changeFirstCharacterToLast('m'));
 console.log('changeFirstCharacterToLast:', changeFirstCharacterToLast('mw'));
 console.log('changeFirstCharacterToLast:', changeFirstCharacterToLast('mikulew'));
 
-console.log('swap:', swap('m'));
-console.log('swap:', swap('mw'));
-console.log('swap:', swap('mikulew'));
+console.log('swap:', swap('m')); // "m"
+console.log('swap:', swap('mw')); // "wm"
+console.log('swap:', swap('mikulew')); // "wikulem"
 
-console.log('replace:', replace('m'));
-console.log('replace:', replace('mw'));
-console.log('replace:', replace('mikulew'));
+console.log('replace:', replace('m')); // "m"
+console.log('replace:', replace('mw')); // "wm"
+console.log('replace:', replace('mikulew')); // "wikulem"

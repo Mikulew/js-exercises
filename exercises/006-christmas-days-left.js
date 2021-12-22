@@ -4,10 +4,11 @@
 
 const today = new Date();
 const christmas = new Date(today.getFullYear(), 11, 25);
+console.log(christmas);
 const isChristmasOverCurrentYear = today.getMonth() === 11 && today.getDate() > 25;
 
 if (isChristmasOverCurrentYear) {
-  christmas.setFullYear(christmas.getFullYear() + 1); 
+  christmas.setFullYear(christmas.getFullYear() + 1);
 }
 
 const oneDayinMiliseconds = 1000 * 60 * 60 * 24;

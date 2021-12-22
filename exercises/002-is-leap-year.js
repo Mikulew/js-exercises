@@ -43,6 +43,6 @@ function checkLeapYear(year) {
 }
 
 
-logQuestion(isLeapYear(1900));
-logQuestion(isLeapYear(1600));
-logQuestion(isLeapYear(2012));
+logQuestion(isLeapYear(1900)); // false
+logQuestion(isLeapYear(1600)); // true
+logQuestion(isLeapYear(2012)); // true

@@ -18,10 +18,10 @@ function removeCharacterWithSubstrMethod(string, charPosition) {
   return `${firstPartOfWord}${secondPartOfWord}`;
 }
 
-console.log(removeCharacterWithSubstringMethod("JavaScript", 0));
-console.log(removeCharacterWithSubstringMethod("JavaScript", 3));
-console.log(removeCharacterWithSubstringMethod("JavaScript", 5));
+console.log(removeCharacterWithSubstringMethod("JavaScript", 0)); // "avaScript"
+console.log(removeCharacterWithSubstringMethod("JavaScript", 3)); // "JavScript"
+console.log(removeCharacterWithSubstringMethod("JavaScript", 5)); // "JavaSript"
 
-console.log(removeCharacterWithSubstrMethod("JavaScript", 1));
-console.log(removeCharacterWithSubstrMethod("JavaScript", 4));
-console.log(removeCharacterWithSubstrMethod("JavaScript", 6));
+console.log(removeCharacterWithSubstrMethod("JavaScript", 1)); // "JvaScript"
+console.log(removeCharacterWithSubstrMethod("JavaScript", 4)); // "Javacript"
+console.log(removeCharacterWithSubstrMethod("JavaScript", 6)); // "JavaScipt"

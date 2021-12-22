@@ -9,4 +9,4 @@ function truncateWithWordLimit(str, limit) {
     return str.split(' ').splice(0, limit).join(' ');
 }
 
-console.log(truncateWithWordLimit(text, wordLimit)); // JavaScript is simple
+console.log(truncateWithWordLimit(text, wordLimit)); // "JavaScript is simple"

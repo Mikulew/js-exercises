@@ -20,5 +20,5 @@ function numberOfFridayThe13thsIn(startYear, endYear) {
     : `Number of 13th Friday between ${startYear} and ${endYear} is ${counter}`;
 }
 
-console.log(numberOfFridayThe13thsIn(2012, 2012)); // Number of 13th Friday in 2012 is 3
-console.log(numberOfFridayThe13thsIn(2012, 2015)); // Number of 13th Friday between 2012 and 2015 is 9
+console.log(numberOfFridayThe13thsIn(2012, 2012)); // "Number of 13th Friday in 2012 is 3"
+console.log(numberOfFridayThe13thsIn(2012, 2015)); // "Number of 13th Friday between 2012 and 2015 is 9"

@@ -38,6 +38,6 @@ function countVowelsForMethod(string) {
   return vowelCount;
 }
 
-console.log(countVowels("mikulew"));
-console.log(countVowelsByArrayMethod("mikulew"));
-console.log(countVowelsForMethod("mikulew"));
+console.log(countVowels("mikulew")); // 3
+console.log(countVowelsByArrayMethod("mikulew")); // 3
+console.log(countVowelsForMethod("mikulew")); // 3
